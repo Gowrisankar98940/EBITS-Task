@@ -1,7 +1,12 @@
 user1 = input("What's your name:")
 user2 = input("And your name:")
+<<<<<<< HEAD
 user1_answer = input("%s, do yo want to choose rock, paper or scissors:" % user1)
 user2_answer = input("%s, do you want to choose rock, paper or scissors:" % user2)
+=======
+user1_answer = input("%s, do yo want to choose rock, paper or scissors:", user1)
+user2_answer = input("%s, do you want to choose rock, paper or scissors:", user2)
+>>>>>>> cb7805323852e604b1e0262c82acc87cfb7cf983
 
 def compare(u1, u2):
     if u1 == u2:
